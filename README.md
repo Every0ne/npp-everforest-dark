@@ -22,7 +22,7 @@ A warm, nature-inspired syntax highlighting theme for Notepad++, ported from the
 
 ## About
 
-**Everforest for Notepad++** brings the beloved Everforest color scheme \u2014 designed to be warm, soft on the eyes, and easy to work with in any lighting \u2014 to one of the most popular text editors on Windows.
+**Everforest for Notepad++** brings the beloved Everforest color scheme designed to be warm, soft on the eyes, and easy to work with to one of the most popular text editors on Windows.
 
 This project aims to cover **all word/style groups** listed in Notepad++'s Style Configurator for each supported language, ensuring consistent and complete highlighting across the board.
 
