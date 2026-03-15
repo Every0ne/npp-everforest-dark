@@ -37,16 +37,20 @@ Currently the following, commonly used languages are completed, with the rest be
 - Assembler
 - ASP
 - ASN.1
+- cfg/conf/ini
 - CSS
 - C and C++
+- Go
 - HTML
 - JSON
 - Lua
+- PHP
+- PowerShell
+- Python
+- Rust
 - XML
 
 Languages not mentioned here may or may not display properly in partial or full extent.
-
----
 
 ## Installation
 
@@ -55,20 +59,14 @@ Languages not mentioned here may or may not display properly in partial or full 
 3. Select **Everforest Dark** from the theme dropdown.
 4. Click **Save & Close**.
 
----
-
 ## Contributing
 
 This repository is just a readonly mirror, therefore pull requests cannot be accepted.
-
----
 
 ## Acknowledgements
 
 - [Everforest](https://github.com/sainnhe/everforest) by **[@sainnhe](https://github.com/sainnhe)** - the original color scheme this theme is based on.
 - [Notepad++](https://notepad-plus-plus.org/) - the editor this theme targets.
-
----
 
 ## License
 
