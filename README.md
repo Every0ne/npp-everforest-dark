@@ -34,21 +34,27 @@ Currently the following, commonly used languages are completed, with the rest be
 
 - ActionScript
 - ADA
-- Assembler
-- ASP
 - ASN.1
+- ASP
+- Assembler
+- Batch
+- C and C++
 - cfg/conf/ini
 - CSS
-- C and C++
 - Go
 - HTML
+- Java
+- Javascript
 - JSON
 - Lua
 - PHP
 - PowerShell
 - Python
 - Rust
+- SQL
+- TOML
 - XML
+- YAML
 
 Languages not mentioned here may or may not display properly in partial or full extent.
 
