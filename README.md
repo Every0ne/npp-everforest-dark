@@ -54,6 +54,7 @@ Currently the following, commonly used languages are completed, with the rest be
 - Rust
 - SQL
 - TOML
+- TypeScript
 - XML
 - YAML
 
