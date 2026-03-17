@@ -43,6 +43,7 @@ Currently the following, commonly used languages are completed, with the rest be
 - CSS
 - Go
 - HTML
+- InnoSetup
 - Java
 - Javascript
 - JSON
