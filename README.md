@@ -40,6 +40,8 @@ Currently the following, commonly used languages are completed, with the rest be
 - Batch
 - C and C++
 - cfg/conf/ini
+- CMAKE
+- CoffeeScript
 - CSS
 - Go
 - HTML
@@ -48,6 +50,8 @@ Currently the following, commonly used languages are completed, with the rest be
 - Javascript
 - JSON
 - Lua
+- MAKEFILE
+- Perl
 - PHP
 - PowerShell
 - Python

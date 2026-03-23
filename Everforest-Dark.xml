@@ -587,47 +587,47 @@ Credits:
             <WordsStyle name="STRING" styleID="10" fgColor="A7C080" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
         </LexerType>
         <LexerType name="perl" desc="Perl" ext="">
-            <WordsStyle name="DEFAULT" styleID="0" fgColor="D3C6AA" bgColor="232A2E" fontName="" fontStyle="10" fontSize=""></WordsStyle>
-            <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="7FBBB3" bgColor="232A2E" fontName="" fontStyle="10" fontSize="" keywordClass="instre1"></WordsStyle>
-            <WordsStyle name="NUMBER" styleID="4" fgColor="D699B6" bgColor="232A2E" fontName="" fontStyle="10" fontSize=""></WordsStyle>
-            <WordsStyle name="OPERATOR" styleID="10" fgColor="E67E80" bgColor="232A2E" fontName="" fontStyle="10" fontSize=""></WordsStyle>
-            <WordsStyle name="IDENTIFIER" styleID="11" fgColor="F8F8F2" bgColor="232A2E" fontName="" fontStyle="1" fontSize=""></WordsStyle>
-            <WordsStyle name="SCALAR" styleID="12" fgColor="F8F8F2" bgColor="232A2E" fontName="" fontStyle="10" fontSize=""></WordsStyle>
-            <WordsStyle name="ARRAY" styleID="13" fgColor="F8F8F2" bgColor="232A2E" fontName="" fontStyle="10" fontSize=""></WordsStyle>
-            <WordsStyle name="HASH" styleID="14" fgColor="F8F8F2" bgColor="232A2E" fontName="" fontStyle="10" fontSize=""></WordsStyle>
-            <WordsStyle name="SYMBOL TABLE" styleID="15" fgColor="F8F8F2" bgColor="232A2E" fontName="" fontStyle="10" fontSize=""></WordsStyle>
-            <WordsStyle name="PROTOTYPE" styleID="40" fgColor="F8F8F2" bgColor="232A2E" fontName="" fontStyle="1" fontSize=""></WordsStyle>
-            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="4F5862" bgColor="232A2E" fontName="" fontStyle="10" fontSize=""></WordsStyle>
-            <WordsStyle name="STRING SINGLEQUOTE" styleID="7" fgColor="E6DB74" bgColor="232A2E" fontName="" fontStyle="10" fontSize=""></WordsStyle>
-            <WordsStyle name="STRING DOUBLEQUOTE" styleID="6" fgColor="E6DB74" bgColor="232A2E" fontName="" fontStyle="10" fontSize=""></WordsStyle>
-            <WordsStyle name="STRING BACKTICKS" styleID="20" fgColor="F8F8F2" bgColor="232A2E" fontName="" fontStyle="10" fontSize=""></WordsStyle>
-            <WordsStyle name="STRING Q" styleID="26" fgColor="F8F8F2" bgColor="232A2E" fontName="" fontStyle="2" fontSize=""></WordsStyle>
-            <WordsStyle name="STRING QQ" styleID="27" fgColor="F8F8F2" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
-            <WordsStyle name="STRING QX" styleID="28" fgColor="F8F8F2" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
-            <WordsStyle name="STRING QR" styleID="29" fgColor="F8F8F2" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
-            <WordsStyle name="STRING QW" styleID="30" fgColor="F8F8F2" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
-            <WordsStyle name="REGEX MATCH" styleID="17" fgColor="E6DB74" bgColor="232A2E" fontName="" fontStyle="10" fontSize=""></WordsStyle>
-            <WordsStyle name="REGEX SUBSTITUTION" styleID="18" fgColor="F8F8F2" bgColor="232A2E" fontName="" fontStyle="10" fontSize=""></WordsStyle>
-            <WordsStyle name="TRANSLATION" styleID="44" fgColor="F8F8F2" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
-            <WordsStyle name="HEREDOC DELIMITER" styleID="22" fgColor="F8F8F2" bgColor="232A2E" fontName="" fontStyle="1" fontSize=""></WordsStyle>
-            <WordsStyle name="HEREDOC SINGLEQUOTE" styleID="23" fgColor="F8F8F2" bgColor="232A2E" fontName="" fontStyle="2" fontSize=""></WordsStyle>
-            <WordsStyle name="HEREDOC DOUBLEQUOTE" styleID="24" fgColor="F8F8F2" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
-            <WordsStyle name="HEREDOC BACKTICK" styleID="25" fgColor="F8F8F2" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
-            <WordsStyle name="VAR IN STRING" styleID="43" fgColor="F8F8F2" bgColor="232A2E" fontName="" fontStyle="3" fontSize=""></WordsStyle>
-            <WordsStyle name="VAR IN REGEX" styleID="54" fgColor="F8F8F2" bgColor="232A2E" fontName="" fontStyle="3" fontSize=""></WordsStyle>
-            <WordsStyle name="VAR IN REGEX SUBSTITUTION" styleID="55" fgColor="F8F8F2" bgColor="232A2E" fontName="" fontStyle="3" fontSize=""></WordsStyle>
-            <WordsStyle name="VAR IN BACKTICKS" styleID="57" fgColor="F8F8F2" bgColor="232A2E" fontName="" fontStyle="3" fontSize=""></WordsStyle>
-            <WordsStyle name="VAR IN HEREDOC DOUBLEQUOTE" styleID="61" fgColor="F8F8F2" bgColor="232A2E" fontName="" fontStyle="3" fontSize=""></WordsStyle>
-            <WordsStyle name="VAR IN HEREDOC BACKTICK" styleID="62" fgColor="F8F8F2" bgColor="232A2E" fontName="" fontStyle="3" fontSize=""></WordsStyle>
-            <WordsStyle name="VAR IN STRING QQ" styleID="64" fgColor="F8F8F2" bgColor="232A2E" fontName="" fontStyle="3" fontSize=""></WordsStyle>
-            <WordsStyle name="VAR IN STRING QX" styleID="65" fgColor="F8F8F2" bgColor="232A2E" fontName="" fontStyle="3" fontSize=""></WordsStyle>
-            <WordsStyle name="VAR IN STRING QR" styleID="66" fgColor="F8F8F2" bgColor="232A2E" fontName="" fontStyle="3" fontSize=""></WordsStyle>
-            <WordsStyle name="FORMAT IDENTIFIER" styleID="41" fgColor="F8F8F2" bgColor="232A2E" fontName="" fontStyle="2" fontSize=""></WordsStyle>
-            <WordsStyle name="FORMAT BODY" styleID="42" fgColor="F8F8F2" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
-            <WordsStyle name="DATA SECTION" styleID="21" fgColor="F8F8F2" bgColor="232A2E" fontName="" fontStyle="10" fontSize=""></WordsStyle>
-            <WordsStyle name="POD" styleID="3" fgColor="F8F8F2" bgColor="232A2E" fontName="" fontStyle="10" fontSize=""></WordsStyle>
-            <WordsStyle name="POD VERBATIM" styleID="31" fgColor="F8F8F2" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
-            <WordsStyle name="ERROR" styleID="1" fgColor="F8F8F2" bgColor="232A2E" fontName="" fontStyle="10" fontSize=""></WordsStyle>
+            <WordsStyle name="DEFAULT" styleID="0" fgColor="D3C6AA" bgColor="232A2E" fontName="" fontStyle="8" fontSize="" colorStyle="1"></WordsStyle>
+            <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="7FBBB3" bgColor="232A2E" fontName="" fontStyle="8" fontSize="" keywordClass="instre1" colorStyle="1"></WordsStyle>
+            <WordsStyle name="NUMBER" styleID="4" fgColor="D699B6" bgColor="232A2E" fontName="" fontStyle="8" fontSize="" colorStyle="1"></WordsStyle>
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="E67E80" bgColor="232A2E" fontName="" fontStyle="8" fontSize="" colorStyle="1"></WordsStyle>
+            <WordsStyle name="IDENTIFIER" styleID="11" fgColor="D3C6AA" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
+            <WordsStyle name="SCALAR" styleID="12" fgColor="DBBC7F" bgColor="232A2E" fontName="" fontStyle="8" fontSize="" colorStyle="1"></WordsStyle>
+            <WordsStyle name="ARRAY" styleID="13" fgColor="DBBC7F" bgColor="232A2E" fontName="" fontStyle="8" fontSize="" colorStyle="1"></WordsStyle>
+            <WordsStyle name="HASH" styleID="14" fgColor="DBBC7F" bgColor="232A2E" fontName="" fontStyle="8" fontSize="" colorStyle="1"></WordsStyle>
+            <WordsStyle name="SYMBOL TABLE" styleID="15" fgColor="DBBC7F" bgColor="232A2E" fontName="" fontStyle="10" fontSize="" colorStyle="1"></WordsStyle>
+            <WordsStyle name="PROTOTYPE" styleID="40" fgColor="E67E80" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="4F5862" bgColor="232A2E" fontName="" fontStyle="8" fontSize="" colorStyle="1"></WordsStyle>
+            <WordsStyle name="STRING SINGLEQUOTE" styleID="7" fgColor="A7C080" bgColor="232A2E" fontName="" fontStyle="8" fontSize="" colorStyle="1"></WordsStyle>
+            <WordsStyle name="STRING DOUBLEQUOTE" styleID="6" fgColor="A7C080" bgColor="232A2E" fontName="" fontStyle="8" fontSize="" colorStyle="1"></WordsStyle>
+            <WordsStyle name="STRING BACKTICKS" styleID="20" fgColor="99A4CA" bgColor="232A2E" fontName="" fontStyle="8" fontSize="" colorStyle="1"></WordsStyle>
+            <WordsStyle name="STRING Q" styleID="26" fgColor="A7C080" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
+            <WordsStyle name="STRING QQ" styleID="27" fgColor="A7C080" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
+            <WordsStyle name="STRING QX" styleID="28" fgColor="99A4CA" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
+            <WordsStyle name="STRING QR" styleID="29" fgColor="83C092" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
+            <WordsStyle name="STRING QW" styleID="30" fgColor="A7C080" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
+            <WordsStyle name="REGEX MATCH" styleID="17" fgColor="83C092" bgColor="232A2E" fontName="" fontStyle="8" fontSize="" colorStyle="1"></WordsStyle>
+            <WordsStyle name="REGEX SUBSTITUTION" styleID="18" fgColor="83C092" bgColor="232A2E" fontName="" fontStyle="8" fontSize="" colorStyle="1"></WordsStyle>
+            <WordsStyle name="TRANSLATION" styleID="44" fgColor="83C092" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
+            <WordsStyle name="HEREDOC DELIMITER" styleID="22" fgColor="A7C080" bgColor="232A2E" fontName="" fontStyle="1" fontSize="" colorStyle="1"></WordsStyle>
+            <WordsStyle name="HEREDOC SINGLEQUOTE" styleID="23" fgColor="A7C080" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
+            <WordsStyle name="HEREDOC DOUBLEQUOTE" styleID="24" fgColor="A7C080" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
+            <WordsStyle name="HEREDOC BACKTICK" styleID="25" fgColor="99A4CA" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
+            <WordsStyle name="VAR IN STRING" styleID="43" fgColor="A7C080" bgColor="232A2E" fontName="" fontStyle="1" fontSize="" colorStyle="1"></WordsStyle>
+            <WordsStyle name="VAR IN REGEX" styleID="54" fgColor="83C092" bgColor="232A2E" fontName="" fontStyle="1" fontSize="" colorStyle="1"></WordsStyle>
+            <WordsStyle name="VAR IN REGEX SUBSTITUTION" styleID="55" fgColor="83C092" bgColor="232A2E" fontName="" fontStyle="1" fontSize="" colorStyle="1"></WordsStyle>
+            <WordsStyle name="VAR IN BACKTICKS" styleID="57" fgColor="99A4CA" bgColor="232A2E" fontName="" fontStyle="1" fontSize="" colorStyle="1"></WordsStyle>
+            <WordsStyle name="VAR IN HEREDOC DOUBLEQUOTE" styleID="61" fgColor="A7C080" bgColor="232A2E" fontName="" fontStyle="1" fontSize="" colorStyle="1"></WordsStyle>
+            <WordsStyle name="VAR IN HEREDOC BACKTICK" styleID="62" fgColor="99A4CA" bgColor="232A2E" fontName="" fontStyle="1" fontSize="" colorStyle="1"></WordsStyle>
+            <WordsStyle name="VAR IN STRING QQ" styleID="64" fgColor="A7C080" bgColor="232A2E" fontName="" fontStyle="1" fontSize="" colorStyle="1"></WordsStyle>
+            <WordsStyle name="VAR IN STRING QX" styleID="65" fgColor="99A4CA" bgColor="232A2E" fontName="" fontStyle="1" fontSize="" colorStyle="1"></WordsStyle>
+            <WordsStyle name="VAR IN STRING QR" styleID="66" fgColor="83C092" bgColor="232A2E" fontName="" fontStyle="1" fontSize="" colorStyle="1"></WordsStyle>
+            <WordsStyle name="FORMAT IDENTIFIER" styleID="41" fgColor="9DA9A0" bgColor="232A2E" fontName="" fontStyle="1" fontSize="" colorStyle="1"></WordsStyle>
+            <WordsStyle name="FORMAT BODY" styleID="42" fgColor="9DA9A0" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
+            <WordsStyle name="DATA SECTION" styleID="21" fgColor="9DA9A0" bgColor="232A2E" fontName="" fontStyle="8" fontSize="" colorStyle="1"></WordsStyle>
+            <WordsStyle name="POD" styleID="3" fgColor="7A8478" bgColor="232A2E" fontName="" fontStyle="8" fontSize="" colorStyle="1"></WordsStyle>
+            <WordsStyle name="POD VERBATIM" styleID="31" fgColor="7A8478" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
+            <WordsStyle name="ERROR" styleID="1" fgColor="F85552" bgColor="282427" fontName="" fontStyle="8" fontSize=""></WordsStyle>
         </LexerType>
         <LexerType name="python" desc="Python" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="D3C6AA" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
@@ -1221,24 +1221,24 @@ Credits:
         <LexerType name="coffeescript" desc="CoffeeScript" ext="">
             <WordsStyle name="PREPROCESSOR" styleID="9" fgColor="E69875" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
             <WordsStyle name="DEFAULT" styleID="11" fgColor="D3C6AA" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
-            <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="7FBBB3" bgColor="232A2E" fontName="" fontStyle="1" fontSize="" keywordClass="instre1"></WordsStyle>
-            <WordsStyle name="TYPE WORD" styleID="16" fgColor="D699B6" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1" keywordClass="instre2"></WordsStyle>
-            <WordsStyle name="NUMBER" styleID="4" fgColor="FF8000" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
+            <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="7FBBB3" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" colorStyle="1"></WordsStyle>
+            <WordsStyle name="TYPE WORD" styleID="16" fgColor="7FBBB3" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1" keywordClass="instre2"></WordsStyle>
+            <WordsStyle name="NUMBER" styleID="4" fgColor="D699B6" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
             <WordsStyle name="STRING" styleID="6" fgColor="A7C080" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
-            <WordsStyle name="CHARACTER" styleID="7" fgColor="808080" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
-            <WordsStyle name="OPERATOR" styleID="10" fgColor="E67E80" bgColor="232A2E" fontName="" fontStyle="1" fontSize=""></WordsStyle>
-            <WordsStyle name="VERBATIM" styleID="13" fgColor="000000" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
-            <WordsStyle name="REGEX" styleID="14" fgColor="83C092" bgColor="232A2E" fontName="" fontStyle="1" fontSize=""></WordsStyle>
+            <WordsStyle name="CHARACTER" styleID="7" fgColor="A7C080" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="E67E80" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
+            <WordsStyle name="VERBATIM" styleID="13" fgColor="A7C080" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
+            <WordsStyle name="REGEX" styleID="14" fgColor="83C092" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
             <WordsStyle name="COMMENT" styleID="1" fgColor="4F5862" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
             <WordsStyle name="COMMENT LINE" styleID="2" fgColor="4F5862" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
             <WordsStyle name="COMMENT DOC" styleID="3" fgColor="4F5862" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
             <WordsStyle name="COMMENT LINE DOC" styleID="15" fgColor="4F5862" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
-            <WordsStyle name="COMMENT DOC KEYWORD" styleID="17" fgColor="4F5862" bgColor="232A2E" fontName="" fontStyle="1" fontSize=""></WordsStyle>
+            <WordsStyle name="COMMENT DOC KEYWORD" styleID="17" fgColor="4F5862" bgColor="232A2E" fontName="" fontStyle="1" fontSize="" colorStyle="1"></WordsStyle>
             <WordsStyle name="COMMENT DOC KEYWORD ERROR" styleID="18" fgColor="6F464B" bgColor="262629" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
-            <WordsStyle name="PREDEFINED CONSTANT" styleID="19" fgColor="800000" bgColor="232A2E" fontName="" fontStyle="1" fontSize="" keywordClass="type2"></WordsStyle>
+            <WordsStyle name="PREDEFINED CONSTANT" styleID="19" fgColor="D699B6" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" keywordClass="type2"></WordsStyle>
             <WordsStyle name="COMMENT BLOCK" styleID="22" fgColor="4F5862" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
-            <WordsStyle name="VERBOSE REGEX" styleID="23" fgColor="000000" bgColor="232A2E" fontName="" fontStyle="3" fontSize=""></WordsStyle>
-            <WordsStyle name="VERBOSE REGEX COMMENT" styleID="24" fgColor="008080" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
+            <WordsStyle name="VERBOSE REGEX" styleID="23" fgColor="83C092" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
+            <WordsStyle name="VERBOSE REGEX COMMENT" styleID="24" fgColor="4F5862" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
         </LexerType>
         <LexerType name="d" desc="D" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="D3C6AA" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
