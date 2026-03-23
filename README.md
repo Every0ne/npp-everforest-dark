@@ -39,6 +39,7 @@ Currently the following, commonly used languages are completed, with the rest be
 - Assembler
 - Batch
 - C and C++
+- C#
 - cfg/conf/ini
 - CMAKE
 - CoffeeScript
