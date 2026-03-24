@@ -996,15 +996,15 @@ Credits:
             <WordsStyle name="NUMBER" styleID="3" fgColor="D699B6" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
             <WordsStyle name="FUNCTION" styleID="4" fgColor="7FBBB3" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1" keywordClass="instre2"></WordsStyle>
             <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="7FBBB3" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1" keywordClass="instre1"></WordsStyle>
-            <WordsStyle name="MACRO" styleID="6" fgColor="F8F8F2" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1" keywordClass="type1"></WordsStyle>
+            <WordsStyle name="MACRO" styleID="6" fgColor="99A4CA" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1" keywordClass="type1"></WordsStyle>
             <WordsStyle name="STRING" styleID="7" fgColor="A7C080" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
             <WordsStyle name="OPERATOR" styleID="8" fgColor="E67E80" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
-            <WordsStyle name="VARIABLE" styleID="9" fgColor="F8F8F2" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
-            <WordsStyle name="SENT" styleID="10" fgColor="F8F8F2" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1" keywordClass="type2"></WordsStyle>
+            <WordsStyle name="VARIABLE" styleID="9" fgColor="DBBC7F" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
+            <WordsStyle name="SENT" styleID="10" fgColor="A7C080" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1" keywordClass="type2"></WordsStyle>
             <WordsStyle name="PREPROCESSOR" styleID="11" fgColor="E69875" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1" keywordClass="type3"></WordsStyle>
-            <WordsStyle name="SPECIAL" styleID="12" fgColor="F8F8F2" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1" keywordClass="type4"></WordsStyle>
-            <WordsStyle name="EXPAND" styleID="13" fgColor="F8F8F2" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1" keywordClass="type5"></WordsStyle>
-            <WordsStyle name="COMOBJ" styleID="14" fgColor="F8F8F2" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
+            <WordsStyle name="SPECIAL" styleID="12" fgColor="9DA9A0" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1" keywordClass="type4"></WordsStyle>
+            <WordsStyle name="EXPAND" styleID="13" fgColor="D3C6AA" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1" keywordClass="type5"></WordsStyle>
+            <WordsStyle name="COMOBJ" styleID="14" fgColor="D3C6AA" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
         </LexerType>
         <LexerType name="ada" desc="ADA" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="D3C6AA" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>

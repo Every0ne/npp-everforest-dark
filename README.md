@@ -37,6 +37,7 @@ Currently the following, commonly used languages are completed, with the rest be
 - ASN.1
 - ASP
 - Assembler
+- AutoIt
 - Batch
 - C and C++
 - C#
