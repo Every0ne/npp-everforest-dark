@@ -38,6 +38,7 @@ Currently the following, commonly used languages are completed, with the rest be
 - ASP
 - Assembler
 - AutoIt
+- Bash/shell
 - Batch
 - C and C++
 - C#
