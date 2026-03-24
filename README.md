@@ -46,6 +46,7 @@ Currently the following, commonly used languages are completed, with the rest be
 - CMAKE
 - CoffeeScript
 - CSS
+- GDScript
 - Go
 - HTML
 - InnoSetup
