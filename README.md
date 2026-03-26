@@ -49,6 +49,7 @@ Currently the following, commonly used languages are completed, with the rest be
 - Fortran
 - GDScript
 - Go
+- Haskell
 - HTML
 - InnoSetup
 - Java
