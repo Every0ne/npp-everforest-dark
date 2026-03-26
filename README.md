@@ -56,6 +56,7 @@ Currently the following, commonly used languages are completed, with the rest be
 - JSON
 - Lua
 - MAKEFILE
+- Matlab
 - Perl
 - PHP
 - PowerShell
