@@ -59,6 +59,7 @@ Currently the following, commonly used languages are completed, with the rest be
 - PHP
 - PowerShell
 - Python
+- R
 - Ruby
 - Rust
 - SQL
