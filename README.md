@@ -55,6 +55,7 @@ Currently the following, commonly used languages are completed, with the rest be
 - Java
 - Javascript
 - JSON
+- LaTeX
 - Lua
 - MAKEFILE
 - Matlab
@@ -68,6 +69,7 @@ Currently the following, commonly used languages are completed, with the rest be
 - SQL
 - TOML
 - TypeScript
+- VisualBasic
 - XML
 - YAML
 
