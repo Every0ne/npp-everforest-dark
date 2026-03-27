@@ -32,7 +32,7 @@ The theme is based on Medium/Hard variant of the Dark style, with tiny tweaks fo
 
 Currently the following, commonly used languages are completed, with the rest being a work in progress:
 
-<div style="column-count: 2; column-gap: 2rem">
+<div style="column-width: 16ch; column-gap: 2rem; margin-bottom: 1rem">
 - ActionScript<br>
 - ADA<br>
 - ASN.1<br>
@@ -59,7 +59,10 @@ Currently the following, commonly used languages are completed, with the rest be
 - LaTeX<br>
 - Lua<br>
 - MAKEFILE<br>
+- NSIS<br>
 - Matlab<br>
+- Objective-C<br>
+- Pascal<br>
 - Perl<br>
 - PHP<br>
 - PowerShell<br>
@@ -68,9 +71,12 @@ Currently the following, commonly used languages are completed, with the rest be
 - Ruby<br>
 - Rust<br>
 - SQL<br>
+- Swift<br>
+- TCL<br>
+- TeX<br>
 - TOML<br>
 - TypeScript<br>
-- VisualBasic<br>
+- Visual Basic<br>
 - XML<br>
 - YAML<br>
 </div>
