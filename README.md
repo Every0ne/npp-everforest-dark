@@ -32,46 +32,48 @@ The theme is based on Medium/Hard variant of the Dark style, with tiny tweaks fo
 
 Currently the following, commonly used languages are completed, with the rest being a work in progress:
 
-- ActionScript
-- ADA
-- ASN.1
-- ASP
-- Assembler
-- AutoIt
-- Bash/shell
-- Batch
-- C and C++
-- C#
-- cfg/conf/ini
-- CMAKE
-- CoffeeScript
-- CSS
-- Fortran
-- GDScript
-- Go
-- Haskell
-- HTML
-- InnoSetup
-- Java
-- Javascript
-- JSON
-- LaTeX
-- Lua
-- MAKEFILE
-- Matlab
-- Perl
-- PHP
-- PowerShell
-- Python
-- R
-- Ruby
-- Rust
-- SQL
-- TOML
-- TypeScript
-- VisualBasic
-- XML
-- YAML
+<div style="column-count: 2; column-gap: 2rem">
+- ActionScript<br>
+- ADA<br>
+- ASN.1<br>
+- ASP<br>
+- Assembler<br>
+- AutoIt<br>
+- Bash/shell<br>
+- Batch<br>
+- C and C++<br>
+- C#<br>
+- cfg/conf/ini<br>
+- CMAKE<br>
+- CoffeeScript<br>
+- CSS<br>
+- Fortran<br>
+- GDScript<br>
+- Go<br>
+- Haskell<br>
+- HTML<br>
+- InnoSetup<br>
+- Java<br>
+- Javascript<br>
+- JSON<br>
+- LaTeX<br>
+- Lua<br>
+- MAKEFILE<br>
+- Matlab<br>
+- Perl<br>
+- PHP<br>
+- PowerShell<br>
+- Python<br>
+- R<br>
+- Ruby<br>
+- Rust<br>
+- SQL<br>
+- TOML<br>
+- TypeScript<br>
+- VisualBasic<br>
+- XML<br>
+- YAML<br>
+</div>
 
 Languages not mentioned here may or may not display properly in partial or full extent.
 
