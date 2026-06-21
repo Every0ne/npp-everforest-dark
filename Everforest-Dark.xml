@@ -1244,27 +1244,27 @@ Credits:
         </LexerType>
         <LexerType name="d" desc="D" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="D3C6AA" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
-            <WordsStyle name="IDENTIFIER" styleID="14" fgColor="000000" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
-            <WordsStyle name="INSTRUCTION WORD" styleID="6" fgColor="7FBBB3" bgColor="232A2E" fontName="" fontStyle="1" fontSize="" keywordClass="instre1"></WordsStyle>
-            <WordsStyle name="KEYWORD1" styleID="7" fgColor="000000" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1" keywordClass="instre2"></WordsStyle>
-            <WordsStyle name="KEYWORD2" styleID="8" fgColor="000000" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1" keywordClass="type1"></WordsStyle>
-            <WordsStyle name="KEYWORD3" styleID="9" fgColor="000000" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1" keywordClass="type2"></WordsStyle>
-            <WordsStyle name="KEYWORD4" styleID="20" fgColor="000000" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1" keywordClass="type3"></WordsStyle>
-            <WordsStyle name="KEYWORD5" styleID="21" fgColor="000000" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1" keywordClass="type4"></WordsStyle>
-            <WordsStyle name="KEYWORD6" styleID="22" fgColor="000000" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1" keywordClass="type5"></WordsStyle>
-            <WordsStyle name="NUMBER" styleID="5" fgColor="FF8000" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
+            <WordsStyle name="IDENTIFIER" styleID="14" fgColor="D3C6AA" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
+            <WordsStyle name="INSTRUCTION WORD" styleID="6" fgColor="7FBBB3" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" colorStyle="1"></WordsStyle>
+            <WordsStyle name="KEYWORD1" styleID="7" fgColor="E69875" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1" keywordClass="instre2"></WordsStyle>
+            <WordsStyle name="KEYWORD2" styleID="8" fgColor="99A4CA" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1" keywordClass="type1"></WordsStyle>
+            <WordsStyle name="KEYWORD3" styleID="9" fgColor="E67E80" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1" keywordClass="type2"></WordsStyle>
+            <WordsStyle name="KEYWORD4" styleID="20" fgColor="83C092" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1" keywordClass="type3"></WordsStyle>
+            <WordsStyle name="KEYWORD5" styleID="21" fgColor="D699B6" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1" keywordClass="type4"></WordsStyle>
+            <WordsStyle name="KEYWORD6" styleID="22" fgColor="9DA9A0" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1" keywordClass="type5"></WordsStyle>
+            <WordsStyle name="NUMBER" styleID="5" fgColor="D699B6" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
             <WordsStyle name="STRING" styleID="10" fgColor="A7C080" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
-            <WordsStyle name="CHARACTER" styleID="12" fgColor="808080" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
-            <WordsStyle name="OPERATOR" styleID="13" fgColor="E67E80" bgColor="232A2E" fontName="" fontStyle="1" fontSize=""></WordsStyle>
+            <WordsStyle name="CHARACTER" styleID="12" fgColor="A7C080" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
+            <WordsStyle name="OPERATOR" styleID="13" fgColor="E67E80" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
             <WordsStyle name="COMMENT" styleID="1" fgColor="4F5862" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
             <WordsStyle name="COMMENT LINE" styleID="2" fgColor="4F5862" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
             <WordsStyle name="COMMENT DOC" styleID="3" fgColor="4F5862" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
             <WordsStyle name="COMMENT NESTED" styleID="4" fgColor="4F5862" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
             <WordsStyle name="COMMENT LINE DOC" styleID="15" fgColor="4F5862" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
-            <WordsStyle name="COMMENT DOC KEYWORD" styleID="16" fgColor="4F5862" bgColor="232A2E" fontName="" fontStyle="1" fontSize=""></WordsStyle>
+            <WordsStyle name="COMMENT DOC KEYWORD" styleID="16" fgColor="4F5862" bgColor="232A2E" fontName="" fontStyle="1" fontSize="" colorStyle="1"></WordsStyle>
             <WordsStyle name="COMMENT DOC KEYWORD ERROR" styleID="17" fgColor="6F464B" bgColor="262629" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
-            <WordsStyle name="STRING B" styleID="18" fgColor="808080" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
-            <WordsStyle name="STRING R" styleID="19" fgColor="808080" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
+            <WordsStyle name="STRING B" styleID="18" fgColor="83C092" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
+            <WordsStyle name="STRING R" styleID="19" fgColor="83C092" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
         </LexerType>
         <LexerType name="erlang" desc="Erlang" ext="">
             <!-- COMMENTS - All comment types use the comment color -->

@@ -47,6 +47,8 @@ Currently the following, commonly used languages are completed, with the rest be
 - CMAKE<br>
 - CoffeeScript<br>
 - CSS<br>
+- D<br>
+- Erlang<br>
 - Fortran<br>
 - GDScript<br>
 - Go<br>
