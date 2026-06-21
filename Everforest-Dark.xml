@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--//
 
 Everforest Dark
@@ -42,7 +42,7 @@ Credits:
     To Sainnhe Park https://github.com/sainnheThanks for the original Everforest palette.
     To Ethan M. for creating the beautiful https://everforest.vercel.app/ website.
 //-->
-<NotepadPlus modelDate="20251223" modelFileLastModifiedDate="20260107">
+<NotepadPlus modelDate="20260511" modelFileLastModifiedDate="20260517">
     <LexerStyles>
         <LexerType name="c" desc="C" ext="">
             <WordsStyle name="PREPROCESSOR" styleID="9" fgColor="E69875" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
@@ -99,6 +99,7 @@ Credits:
             <WordsStyle name="USER KEYWORDS 8" styleID="135" fgColor="7FBBB3" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1" keywordClass="substyle8"></WordsStyle>
             <WordsStyle name="PREPROCESSOR COMMENT" styleID="23" fgColor="008000" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
             <WordsStyle name="PREPROCESSOR COMMENT DOC" styleID="24" fgColor="008080" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
+            <WordsStyle name="STRINGRAW" styleID="20" fgColor="D3C6AA" bgColor="232A2E" fontName="" fontStyle="0" fontSize=""></WordsStyle>
         </LexerType>
         <LexerType name="go" desc="Go" ext="">
             <WordsStyle name="PREPROCESSOR" styleID="9" fgColor="E69875" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
@@ -401,9 +402,9 @@ Credits:
             <WordsStyle name="COMMENT" styleID="124" fgColor="4F5862" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
             <WordsStyle name="COMMENTLINE" styleID="125" fgColor="4F5862" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
             <WordsStyle name="OPERATOR" styleID="127" fgColor="E67E80" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
-            <WordsStyle name="PREDEFINED" styleID="213" fgColor="99A4CA" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1" keywordClass="substyle6"></WordsStyle>
-            <WordsStyle name="FUNCS AND METHODS 1" styleID="214" fgColor="99A4CA" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1" keywordClass="substyle7"></WordsStyle>
-            <WordsStyle name="FUNCS AND METHODS 2" styleID="215" fgColor="99A4CA" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1" keywordClass="substyle8"></WordsStyle>
+            <WordsStyle name="PREDEFINED" styleID="213" fgColor="E69875" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1" keywordClass="substyle6"></WordsStyle>
+            <WordsStyle name="FUNCS AND METHODS 1" styleID="214" fgColor="7FBBB3" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1" keywordClass="substyle7"></WordsStyle>
+            <WordsStyle name="FUNCS AND METHODS 2" styleID="215" fgColor="7FBBB3" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1" keywordClass="substyle8"></WordsStyle>
             <WordsStyle name="USER KEYWORDS 1" styleID="208" fgColor="99A4CA" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1" keywordClass="substyle1"></WordsStyle>
             <WordsStyle name="USER KEYWORDS 2" styleID="209" fgColor="99A4CA" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1" keywordClass="substyle2"></WordsStyle>
             <WordsStyle name="USER KEYWORDS 3" styleID="210" fgColor="99A4CA" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1" keywordClass="substyle3"></WordsStyle>
@@ -585,6 +586,7 @@ Credits:
             <WordsStyle name="PREPROCESSOR2" styleID="6" fgColor="E69875" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
             <WordsStyle name="HEX NUMBER" styleID="8" fgColor="D699B6" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
             <WordsStyle name="STRING" styleID="10" fgColor="A7C080" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
+            <WordsStyle name="MULTILINESTRING" styleID="15" fgColor="D3C6AA" bgColor="232A2E" fontName="" fontStyle="0" fontSize=""></WordsStyle>
         </LexerType>
         <LexerType name="perl" desc="Perl" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="D3C6AA" bgColor="232A2E" fontName="" fontStyle="8" fontSize="" colorStyle="1"></WordsStyle>
@@ -1265,32 +1267,39 @@ Credits:
             <WordsStyle name="STRING R" styleID="19" fgColor="808080" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
         </LexerType>
         <LexerType name="erlang" desc="Erlang" ext="">
-            <WordsStyle name="DEFAULT STYLE" styleID="0" fgColor="D3C6AA" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
+            <!-- COMMENTS - All comment types use the comment color -->
             <WordsStyle name="DEFAULT COMMENT" styleID="1" fgColor="4F5862" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
-            <WordsStyle name="FUNCTION COMMENT" styleID="14" fgColor="3F5FBF" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
-            <WordsStyle name="MODULE COMMENT" styleID="15" fgColor="3F5FBF" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
-            <WordsStyle name="DOCUMENTATION HELPER IN COMMENT" styleID="16" fgColor="3F5FBF" bgColor="232A2E" fontName="" fontStyle="1" fontSize="" keywordClass="type3"></WordsStyle>
-            <WordsStyle name="DOCUMENTATION MACRO IN COMMENT" styleID="17" fgColor="3F5FBF" bgColor="232A2E" fontName="" fontStyle="3" fontSize="" keywordClass="type4"></WordsStyle>
+            <WordsStyle name="FUNCTION COMMENT" styleID="14" fgColor="4F5862" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
+            <WordsStyle name="MODULE COMMENT" styleID="15" fgColor="4F5862" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
+            <WordsStyle name="DOCUMENTATION HELPER IN COMMENT" styleID="16" fgColor="4F5862" bgColor="232A2E" fontName="" fontStyle="1" fontSize="" keywordClass="type3" colorStyle="1"></WordsStyle>
+            <WordsStyle name="DOCUMENTATION MACRO IN COMMENT" styleID="17" fgColor="4F5862" bgColor="232A2E" fontName="" fontStyle="1" fontSize="" keywordClass="type4" colorStyle="1"></WordsStyle>
+            <!-- BASIC ELEMENTS -->
+            <WordsStyle name="DEFAULT STYLE" styleID="0" fgColor="D3C6AA" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
             <WordsStyle name="VARIABLE" styleID="2" fgColor="DBBC7F" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
             <WordsStyle name="NUMBER" styleID="3" fgColor="D699B6" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
             <WordsStyle name="STRING" styleID="5" fgColor="A7C080" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
             <WordsStyle name="CHARACTER" styleID="9" fgColor="A7C080" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
-            <WordsStyle name="MACRO" styleID="10" fgColor="7F007F" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
-            <WordsStyle name="MACRO QUOTED" styleID="19" fgColor="7F007F" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
-            <WordsStyle name="RECORD" styleID="11" fgColor="7F7F00" bgColor="232A2E" fontName="" fontStyle="1" fontSize=""></WordsStyle>
-            <WordsStyle name="RECORD QUOTED" styleID="20" fgColor="7F7F00" bgColor="232A2E" fontName="" fontStyle="1" fontSize=""></WordsStyle>
-            <WordsStyle name="ATOM" styleID="7" fgColor="7F7F00" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
-            <WordsStyle name="ATOM QUOTED" styleID="18" fgColor="7F7F00" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
-            <WordsStyle name="NODE NAME" styleID="13" fgColor="007F7F" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
-            <WordsStyle name="NODE NAME QUOTED" styleID="21" fgColor="007F7F" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
-            <WordsStyle name="RESERVED WORDS" styleID="4" fgColor="00007F" bgColor="232A2E" fontName="" fontStyle="1" fontSize="" keywordClass="instre1"></WordsStyle>
-            <WordsStyle name="BUILT-IN FUNCTIONS" styleID="22" fgColor="7FBBB3" bgColor="232A2E" fontName="" fontStyle="1" fontSize="" keywordClass="instre2"></WordsStyle>
-            <WordsStyle name="FUNCTION NAME" styleID="8" fgColor="00007F" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
-            <WordsStyle name="MODULE NAME" styleID="23" fgColor="00CCCC" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
-            <WordsStyle name="MODULE ATTRIBUTES" styleID="24" fgColor="007F7F" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1" keywordClass="type2"></WordsStyle>
-            <WordsStyle name="PREPROCESSOR" styleID="12" fgColor="E69875" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1" keywordClass="type1"></WordsStyle>
+            <!-- KEYWORDS AND CONTROL FLOW -->
+            <WordsStyle name="RESERVED WORDS" styleID="4" fgColor="7FBBB3" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" colorStyle="1"></WordsStyle>
+            <!-- TYPES AND DECLARATIONS -->
+            <WordsStyle name="MACRO" styleID="10" fgColor="83C092" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
+            <WordsStyle name="MACRO QUOTED" styleID="19" fgColor="83C092" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
+            <WordsStyle name="NODE NAME" styleID="13" fgColor="99A4CA" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
+            <WordsStyle name="NODE NAME QUOTED" styleID="21" fgColor="99A4CA" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
+            <WordsStyle name="MODULE NAME" styleID="23" fgColor="99A4CA" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
+            <!-- IMPORTANT STRUCTURAL ELEMENTS (Records, Atoms, Operators, Braces) -->
+            <WordsStyle name="RECORD" styleID="11" fgColor="99A4CA" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
+            <WordsStyle name="RECORD QUOTED" styleID="20" fgColor="99A4CA" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
+            <WordsStyle name="ATOM" styleID="7" fgColor="D3C6AA" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
+            <WordsStyle name="ATOM QUOTED" styleID="18" fgColor="D3C6AA" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
             <WordsStyle name="OPERATORS" styleID="6" fgColor="E67E80" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
-            <WordsStyle name="UNKNOWN: ERROR" styleID="31" fgColor="000000" bgColor="FFA448" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
+            <!-- DEFINITIONS AND DIRECTIVES -->
+            <WordsStyle name="PREPROCESSOR" styleID="12" fgColor="E69875" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1" keywordClass="type1"></WordsStyle>
+            <WordsStyle name="BUILT-IN FUNCTIONS" styleID="22" fgColor="7FBBB3" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" keywordClass="instre2" colorStyle="1"></WordsStyle>
+            <WordsStyle name="FUNCTION NAME" styleID="8" fgColor="7FBBB3" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
+            <WordsStyle name="MODULE ATTRIBUTES" styleID="24" fgColor="E69875" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1" keywordClass="type2"></WordsStyle>
+            <!-- ERRORS -->
+            <WordsStyle name="UNKNOWN: ERROR" styleID="31" fgColor="F85552" bgColor="282427" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
         </LexerType>
         <LexerType name="escript" desc="eScript" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="D3C6AA" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
@@ -1471,7 +1480,7 @@ Credits:
             <WordsStyle name="IDENTIFIER" styleID="6" fgColor="5080E0" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
             <WordsStyle name="VARIABLE" styleID="7" fgColor="CC1166" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
             <WordsStyle name="COL NAME" styleID="8" fgColor="808080" bgColor="F0F0FF" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
-            <WordsStyle name="COL NAME IN []&apos;s" styleID="16" fgColor="D08000" bgColor="232A2E" fontName="" fontStyle="2" fontSize=""></WordsStyle>
+            <WordsStyle name="COL NAME IN []'s" styleID="16" fgColor="D08000" bgColor="232A2E" fontName="" fontStyle="2" fontSize=""></WordsStyle>
         </LexerType>
         <LexerType name="mmixal" desc="MMIXAL" ext="">
             <WordsStyle name="DIVSION OF LEADING WHITESPACE IN LINE" styleID="0" fgColor="000000" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
@@ -1597,7 +1606,7 @@ Credits:
             <WordsStyle name="BINARY ( 16#{1A803F59} )" styleID="11" fgColor="C000C0" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
             <WordsStyle name="MONEY" styleID="12" fgColor="003070" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
             <WordsStyle name="ISSUE { #123-CD-456 }" styleID="13" fgColor="800000" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
-            <WordsStyle name="TAG { &lt;TITLE HEIGHT=100&gt; }" styleID="14" fgColor="C00000" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
+            <WordsStyle name="TAG { &lt;TITLE HEIGHT=100> }" styleID="14" fgColor="C00000" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
             <WordsStyle name="FILE { %/C/WINNT/SOME.DLL }" styleID="15" fgColor="0080FF" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
             <WordsStyle name="EMAIL { JOE@MAIL.DOM }" styleID="16" fgColor="0080FF" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
             <WordsStyle name="URL { FTP://THERE.DOM }" styleID="17" fgColor="0080FF" bgColor="232A2E" fontName="" fontStyle="0" fontSize="" colorStyle="1"></WordsStyle>
