@@ -59,6 +59,7 @@ Currently the following, commonly used languages are completed, with the rest be
 - Javascript<br>
 - JSON<br>
 - LaTeX<br>
+- Lisp<br>
 - Lua<br>
 - MAKEFILE<br>
 - NSIS<br>
@@ -72,12 +73,15 @@ Currently the following, commonly used languages are completed, with the rest be
 - R<br>
 - Ruby<br>
 - Rust<br>
+- Scheme<br>
 - SQL<br>
 - Swift<br>
 - TCL<br>
 - TeX<br>
 - TOML<br>
 - TypeScript<br>
+- Verilog<br>
+- VHDL<br>
 - Visual Basic<br>
 - XML<br>
 - YAML<br>
